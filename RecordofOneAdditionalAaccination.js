@@ -5,9 +5,7 @@
 QuantumultX:
 
 [rewrite_local]
-^https\:\/\/szgd\.tgovcloud\.com\/preorder\/v[0-9]\.[0-9]\.[0-9]\/emergency\/report\/pneumonia\/getVaccineList\.do url script-response-body https://raw.githubusercontent.com/Vulpecula-Studio
-/
-Multiple-vaccine/main/RecordofOneAdditionalAaccination.js
+^https\:\/\/szgd\.tgovcloud\.com\/preorder\/v[0-9]\.[0-9]\.[0-9]\/emergency\/report\/pneumonia\/getVaccineList\.do url script-response-body https://raw.githubusercontent.com/Vulpecula-Studio/Multiple-vaccine/main/RecordofOneAdditionalAaccination.js
 
 [mitm]
 hostname = szgd.tgovcloud.com
